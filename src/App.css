@@ -1,0 +1,102 @@
+.App {
+  height: 100vh; /* Cambia esto */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transition: background-color 0.3s ease;
+}
+
+#drum-machine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  background-color: rgb(52, 52, 52);
+  height: 200px;
+  width: 500px;
+  border-radius: 35px;
+  border: 5px solid rgb(255, 157, 0);
+}
+
+#keys {
+  display: flex;
+  flex-wrap: wrap; /* Envolver elementos en múltiples filas */
+  justify-content: space-between; /* Espaciado uniforme entre elementos */
+  align-content: space-between; /* Espaciado uniforme entre elementos */
+  
+  height: 150px;
+  width: 200px;
+  padding: 5px; /* Espaciado entre el contenedor y los elementos */
+}
+
+
+
+.drum-pad{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  height: 45px;
+  width: 60px;
+  margin:3px;
+  border-radius: 5px;
+  background-color: rgb(255, 223, 141);
+  transition: 0.01s;
+  border: 2px solid #610000;
+}
+
+.soundbtn:hover{
+  background-color: #610000;
+  color: rgb(255, 223, 141);
+  border: 2px solid rgb(255, 223, 141);
+}
+
+
+#controls{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:5px;
+  text-align: center;
+ 
+  height: 150px;
+  width: 200px;
+}
+
+#display{
+  user-select: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-style:oblique;
+  color: rgb(255, 223, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191919;
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+
+
+}
+
+.poweron{
+  height: max-content;
+  border: 1px solid rgb(0, 255, 0);
+  border-radius: 10px;
+  background-color: rgba(0, 115, 0, 0.663);
+}
+
+.poweroff{
+  height: max-content;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.322);
+}
+
+.input{
+  size: 100px;
+}

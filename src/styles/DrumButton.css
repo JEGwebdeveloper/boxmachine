@@ -1,0 +1,11 @@
+.drum-pad{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  height: 45px;
+  width: 60px;
+  margin:3px;
+  border-radius: 5px;
+  background-color: rgb(255, 223, 141);
+  transition: 0.01s;
+  border: 2px solid #610000;
+}
